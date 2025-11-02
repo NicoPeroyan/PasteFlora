@@ -1,0 +1,132 @@
+body {
+    background-image: url("../imagenes/catalogo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 0px;
+    padding: 0;
+    height: 100vh;
+    font-family: Cormorant, serif;
+  }
+  
+  nav {
+      background-color: rgb(255,229, 236, 0.8);
+      border-radius: 50px;
+      display: flex; 
+      align-items: center; 
+      justify-content: flex-start; 
+      padding: 10px;
+      margin: 10px;
+      margin-top: 2vh;
+      margin-left: 60px;
+      height: 60px;
+      width: 88%;
+  }
+  
+  .logonav{
+      margin-left: 80px;
+      margin-right: 10px;
+      
+  }
+  
+  h1{
+      font-family: playfair display sc;
+      font-weight: 100;
+  }
+  
+  ul {
+      list-style: none; 
+      display: flex; 
+      justify-content: flex-start; 
+      gap: 50px; 
+      padding: 0; 
+      margin: 0; 
+      margin-left: 300px;
+  }
+  
+  li{
+      margin: 0;
+      transition: transform 0.3s ease-in-out;
+  }
+  
+  li:hover{
+      transform: scale(1.2); 
+  }
+  
+  a{
+      text-decoration: none;
+      color: inherit;
+  }
+
+.catalogo {
+    margin: 20px;
+    padding: 20px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 25px;
+    background-color: rgb(217, 217, 217, 0.8);
+    border-radius: 50px;
+    align-items: center;
+    height: auto;
+}
+
+.whatsapp{
+    color: green;
+}
+
+footer{
+    background-color: rgb(255,229, 236);
+    display: flex; 
+    flex-direction: flex-start;
+    align-items: flex-start; 
+    text-align: left; 
+    color: rgb(151, 151, 151);
+}
+
+.logo-footer{
+   height: 100px;
+   width: 100px;     
+   padding: 10px;
+   margin-top: 60px;
+   margin-left: 30px;
+}
+
+.social-iconos-conteiner{
+    font-size: 40px;
+    display: flex;
+    margin-top: 90px;
+    gap: 25px;
+    margin-left: 80px;
+}
+
+.social-icon ion-icon {
+    font-size: 40px; 
+    transition: transform 0.3s ease-in-out; 
+}
+
+.social-icon:hover ion-icon {
+    transform: scale(1.2); 
+}
+
+span.copyright{
+    font-size: 20px;
+    margin-left: 150px;
+    margin-top: 150px;
+}
+
+.sobre-nosotros {
+    margin-left: 90px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    max-width: 200px; 
+}
+
+.sobre-nosotros h2 {
+    font-size: 24px;
+    margin-bottom: 10px; 
+}
+
+.sobre-nosotros p {
+    font-size: 16px;
+    line-height: 1.6; 
+}
